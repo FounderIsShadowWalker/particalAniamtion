@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        *{margin: 0; padding: 0;}
+        body{background-color: #f2f2f2;}
+        canvas{display: block;}
+        .input-wrap{
+            position:absolute;
+            margin: 30px;
+            left: 50%;
+            bottom: 0;
+            transform: translateX(-50%);
+            }
+        input{
+            width: 200px;
+            height: 30px;
+            border: 0px;
+            border-bottom: 1px solid #e0e0e0;
+            -webkit-appearance: none;
+            outline: 0;
+            background: 0 0;
+            margin-right: 10px;
+            padding-left: 5px;
+            box-sizing: border-box;
+            text-align: center;
+            color: silver;
+        }
+        input::-webkit-input-placeholder{
+            color: silver;
+            text-align: center;
+        }
+        .btn {
+            height: 30px;
+            line-height: 30px;
+            padding: 0 11px;
+            min-width: 55px;
+            display: inline-block;
+            position: relative;
+            text-align: center;
+            font-size: 15px;
+            vertical-align: top;
+            -webkit-box-sizing: border-box;
+            border: 1px solid #0baae4;
+            border-radius: 3px;
+
+            background-color: #18b4ed;
+            color: #fff;
+            -webkit-background-clip: padding-box;
+            background-clip: padding-box;
+            -webkit-appearance: none;
+            outline: none;
+        }
+
+        .btn:active {
+            background: #1ca7da;
+            border-color: #1ca7da;
+            color: rgba(255,255,255,.5);
+        }
+    </style>
+</head>
+<body>
+<div class="input-wrap">
+    <input id="txt" type="text" name="" value="" placeholder="输入发射文字...">
+    <button id="btn" class="btn">发射</button>
+</div>
+<canvas id="canvas" width="300" height="300" style="background: linear-gradient(#C7E9DA, #54A5C5)"></canvas>
+<script src="index.js"></script>
+</body>
+</html>

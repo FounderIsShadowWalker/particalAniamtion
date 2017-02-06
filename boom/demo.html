@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <style>
+        #container{
+            position: relative;
+            margin: 200px auto 0 auto;
+            width: 400px;
+            height: 300px;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+        }
+        button{
+            display: block;
+            margin: 20px auto 0 auto;
+        }
+        .inner{
+            position: relative;
+            z-index: 10;
+            float: left;
+            border-radius: 50%;
+            background-image: url("example.jpg");
+            background-size: 400px 300px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="container">
+    <img src="example.jpg">
+</div>
+<button>click me</button>
+<script src="boom.js"></script>
+</body>
+</html>
