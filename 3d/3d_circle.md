@@ -98,7 +98,7 @@
  ![Image](https://github.com/FounderIsShadowWalker/particalAniamtion/blob/master/3d/img/pic_3.png)
 
 ##第二步 旋转
- 
+
 怎么旋转呢？其实3维的坐标系我们已经构建出来了，z轴的表示就是投影在屏幕上的缩放比，z-index差异，该怎么旋转呢？
 
 这里就要掏出初中数学课本，来给大家推导一下了。
@@ -124,6 +124,7 @@
     }    
 
 ##最后一点补充
+
 1.加上暂停
 
 这个很简单 在animation里设定一个flag就好，表示状态
