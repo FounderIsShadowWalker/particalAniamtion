@@ -8,7 +8,7 @@
 
 效果如下
 
-[请点这里](http://codepen.io/shadowwalkerzero/embed/PpaGxb/?height=400&theme-id=0&default-tab=result,result&embed-version=2)
+> [请点这里](http://codepen.io/shadowwalkerzero/embed/PpaGxb/?height=400&theme-id=0&default-tab=result,result&embed-version=2)
 
 ##第一步 画球
 如何设置球上的点？
