@@ -8,16 +8,14 @@
 
 效果如下
 
-<div  style="margin-bottom: 20px;"><iframe  height='400' scrolling='no' width=510  title='3d circle' src='http://codepen.io/shadowwalkerzero/embed/PpaGxb/?height=400&theme-id=0&default-tab=result,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>
-</iframe></div>
-
+[demo](http://codepen.io/shadowwalkerzero/embed/PpaGxb/?height=400&theme-id=0&default-tab=result,result&embed-version=2)
 ##第一步 画球
 如何设置球上的点？
  
 我的思路是: 给这个球画上经纬线。
 
 这里画一个草图
-<img src="pic_1.png">
+ ![Image](https://github.com/FounderIsShadowWalker/particalAniamtion/blob/master/3d/img/pic_1.png)
 需要注意的有经线和纬线之间的间隔必须是一致。最简单的方案就是以角度划分了。也就是A到B, B到C的距离必须是一样的，因为它们在不同纬度上的角度不同，即 <AoC = <AoB
 
 代码很好写，我们试着写一下(具体代码请上codepen) 
@@ -49,8 +47,8 @@
         this.up = up;
     }
  我们看看画出来的俯视图
- 
- <img src='pic_2.png'>
+ ![Image](https://github.com/FounderIsShadowWalker/particalAniamtion/blob/master/3d/img/pic_2.png)
+
  
  之后我们再在这个圆周上放球，注意前面说的不同纬度，经度上相邻的两个点角度一致,对于不同球来说，z轴越大 透明度 z-index 就越大，因为z轴是垂直屏幕的轴，上关键代码。
 
@@ -96,13 +94,13 @@
 
 我们看看画出来的球，俯视图。
 
-<img src='pic_3.png'>
+ ![Image](https://github.com/FounderIsShadowWalker/particalAniamtion/blob/master/3d/img/pic_3.png)
 
 ##第二步 旋转
 怎么旋转呢？其实3维的坐标系我们已经构建出来了，z轴的表示就是投影在屏幕上的缩放比，z-index差异，该怎么旋转呢？
 
 这里就要掏出初中数学课本，来给大家推导一下了。
-<img src='pic_4.png'>
+ ![Image](https://github.com/FounderIsShadowWalker/particalAniamtion/blob/master/3d/img/pic_4.png)
 
 	//绕z轴为例
 	x=rcos(b)  y=rsin(b)
