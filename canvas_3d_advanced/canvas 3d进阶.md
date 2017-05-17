@@ -105,4 +105,4 @@
 ![Image](https://github.com/FounderIsShadowWalker/particalAniamtion/blob/master/canvas_3d_advanced/img/vase.png)
 
 ###结语
-canvas
+canvas 3d 坐标转换可谓基础，掌握好canvas坐标转换，配合图形的三维方程，可以让粒子做出美妙的运动，释放无穷尽的想象。
