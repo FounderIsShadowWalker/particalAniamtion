@@ -10,6 +10,7 @@
 <div style="margin-bottom: 20px;"><p data-height="265" data-theme-id="0" data-slug-hash="wemXqp" data-default-tab="result" data-user="shadowwalkerzero" data-embed-version="2" data-pen-title="fireworks seen in the countryside" class="codepen">See the Pen <a href="https://codepen.io/shadowwalkerzero/pen/wemXqp/">fireworks seen in the countryside</a> by shadowwalkerzero (<a href="https://codepen.io/shadowwalkerzero">@shadowwalkerzero</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script></div>
 
+![Image](https://github.com/FounderIsShadowWalker/particalAniamtion/blob/master/effect/firework.gif)
 ###源码结构
 入口: RENDERER.init
 

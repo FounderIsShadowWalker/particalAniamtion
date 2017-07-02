@@ -10,6 +10,7 @@
  <iframe height='500' scrolling='no' title='deformable particles' src='http://codepen.io/shadowwalkerzero/embed/PmQJON/?height=265&theme-id=0&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/shadowwalkerzero/pen/PmQJON/'>deformable particles</a> by shadowwalkerzero (<a href='http://codepen.io/shadowwalkerzero'>@shadowwalkerzero</a>) on <a href='http://codepen.io'>CodePen</a>.
  </iframe></div>-->
 
+ <
 ### 动画生成过程
 > 1.  创建canvas  设置canvas中心点  变量初始化  => function setParameters
 
