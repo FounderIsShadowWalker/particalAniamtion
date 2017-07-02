@@ -7,8 +7,8 @@
  
 ###效果图
 
-<iframe height='500' scrolling='no' title='fireworks seen in the countryside' src='https://codepen.io/shadowwalkerzero/pen/wemXqp?height=265&theme-id=0&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/K-T/pen/NjyNQy/'>fireworks seen in the countryside</a> by K-T (<a href='https://codepen.io/K-T'>@K-T</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
+<div style="margin-bottom: 20px;"><p data-height="265" data-theme-id="0" data-slug-hash="wemXqp" data-default-tab="result" data-user="shadowwalkerzero" data-embed-version="2" data-pen-title="fireworks seen in the countryside" class="codepen">See the Pen <a href="https://codepen.io/shadowwalkerzero/pen/wemXqp/">fireworks seen in the countryside</a> by shadowwalkerzero (<a href="https://codepen.io/shadowwalkerzero">@shadowwalkerzero</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script></div>
 
 ###源码结构
 入口: RENDERER.init
