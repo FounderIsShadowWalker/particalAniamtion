@@ -1,5 +1,5 @@
-##canvas story
-####用canvas讲一个故事
+###canvas story
+###用canvas讲一个故事
 在codepen上看到了一个烟花燃放的特效，觉得很有故事性，除了canvas
 的3d外，觉得拿canvas讲一个故事也是不错的。
 
@@ -7,8 +7,8 @@
  
 ###效果图
 
-<!--<div style="margin-bottom: 20px;"><p data-height="400" data-theme-id="0" data-slug-hash="wemXqp" data-default-tab="result" data-user="shadowwalkerzero" data-embed-version="2" data-pen-title="fireworks seen in the countryside" class="codepen">See the Pen <a href="https://codepen.io/shadowwalkerzero/pen/wemXqp/">fireworks seen in the countryside</a> by shadowwalkerzero (<a href="https://codepen.io/shadowwalkerzero">@shadowwalkerzero</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script></div>-->
+<div style="margin-bottom: 20px;"><p data-height="400" data-theme-id="0" data-slug-hash="wemXqp" data-default-tab="result" data-user="shadowwalkerzero" data-embed-version="2" data-pen-title="fireworks seen in the countryside" class="codepen">See the Pen <a href="https://codepen.io/shadowwalkerzero/pen/wemXqp/">fireworks seen in the countryside</a> by shadowwalkerzero (<a href="https://codepen.io/shadowwalkerzero">@shadowwalkerzero</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script></div>
 
 ###源码结构
 入口: RENDERER.init
